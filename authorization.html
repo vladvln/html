@@ -19,22 +19,24 @@
     </nav>
     <header>
     <main>
-        <section>
-            <ul>
-                <li>
-                    Адресc магазина: г. Санкт-Петербург, ул. Первая, дом 2
-                </li>
-                <li>
-                    Режим работы: Понедельник - Воскресень с 10:00 до 20:00
-                </li>
-                <li>
-                    Телефон: 8 (111) 22 33 44
-                </li>
-                <li>
-                    Электронная почта: <a href="example@email.com">example@email.com
-                </li>
-            </ul>
-        </section>
+        <form action="#" method="POST" autocomplete="on">
+            <div>
+                <label for="login">Логин</label>
+                <input type="email" id="login" name="login" placeholder="Введите e-mail">
+            </div>
+            <div>
+                <label for="pass">Пароль</label>
+                <input type="password" id="pass" name="pass" placeholder="Введите пароль" minlength="6">
+            </div>
+            <div>
+                <label>Запомнить меня:
+                    <input type="checkbox" name="checkbox">
+                </label>
+            </div>
+            <div>
+                <input type="submit" value="Войти" name="log-in">
+            </div>
+        </form>
     </main>
     <footer>
         <address>

@@ -15,6 +15,7 @@
         <a href="shop.html">Магазин</a>
         <a href="reviews.html">Отзывы</a>
         <a href="contacts.html">Контакты</a>
+        <a href="authorization.html">Регистрация</a>
     </nav>
     <header>
     <main>
@@ -51,6 +52,7 @@
                     <a href="#"><b>Купить</b></a>  
                 </article>
         </section>
+        
         <aside>
             <table>
                 <caption>Табцица цен</caption>
@@ -94,10 +96,32 @@
         <article>
             <a href="doc/prices.xlsx" download><br>Полный список товаров</a>
         </article>
+        <form action="#" method="POST" autocomplete="on">
+            <div>
+                <label for="category">Скульптуры:</label>
+                <select id="category"> 
+                    <optgroup label="Скульптуры для дома">
+                        <option>1 товар</option>
+                        <option>2 товар</option>
+                    </optgroup>
+                    <optgroup label="Скульптуры для сада">
+                        <option>3 товар</option>
+                        <option>4 товар</option>
+                    </optgroup>
+                    <optgroup label="Скульптуры для фонтана">
+                        <option>5 товар</option>
+                        <option>6 товар</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div>
+                <input type="submit" value="Купить" name="buy">
+            </div>
+        </form>
     </main>
     <footer>
         <address>
-            Author <a href="vladvladx25@gmail.com">Vladlen Volynin</a><br>
+            Author <a href="mailto:vladvladx25@gmail.com">Vladlen Volynin</a><br>
             <a href="https://github.com/vladvln">GitHub</a>  
         </address>
     </footer>

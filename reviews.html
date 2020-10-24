@@ -15,6 +15,7 @@
         <a href="shop.html">Магазин</a>
         <a href="reviews.html">Отзывы</a>
         <a href="contacts.html">Контакты</a>
+        <a href="authorization.html">Регистрация</a>
     </nav>
     <header>
     <main>
@@ -53,10 +54,27 @@
                 </p>
             </article>
         </section>
+        <form action="#" method="POST" autocomplete="on">
+            <h3>Оставить отзыв</h3>
+            <div>
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div>
+                <textarea name="review" id="review" cols="80" rows="10"></textarea>
+            </div>
+            <div>
+                <input name="images[]" type="file" id="images" multiple accept="image/*"> 
+            </div>
+            <div>
+                <input type="submit" value="Отправить" name="reviews[]">
+            </div>
+            
+        </form>
     </main>
     <footer>
         <address>
-            Author <a href="vladvladx25@gmail.com">Vladlen Volynin</a>   
+            Author <a href="mailto:vladvladx25@gmail.com">Vladlen Volynin</a><br>
             <a href="https://github.com/vladvln">GitHub</a>   
         </address>
     </footer>
