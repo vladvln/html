@@ -1,0 +1,76 @@
+body {
+    background: url(../img/bg.jpg);
+    background-attachment:fixed;    
+    margin: 0;    
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    padding: 10px;
+    display: inline-block;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%; 
+}
+
+table, th, td {
+    border: 1px solid black; /* рамка: ширина - 1px, тип - сплошная, цвет - черный*/
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header, footer {
+    height: 50px;
+    font-size: 18px;
+}
+
+.bg-lb-1 {
+    background:#E0E0E0;
+}
+
+.bg-grey-1 {
+    background:#BDBDBD;
+}
+
+.bg-green-2 {
+    background: #C5E1A5;
+}
+
+.text-grey-1 {
+    color: #9E9E9E;
+}
+
+.text-brown-1 {
+    color: #5D4037;
+}
+
+.text-green-1 {
+    color: #2E7D32;
+}
+
+
+p, h3, h2 {
+    color: #424242;
+}
+
+img {
+     display: block; 
+}

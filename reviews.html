@@ -6,19 +6,20 @@
     <meta name="keywords" content="Купить скульптуры, бронза, камень">
     <meta name="author" content="Автор Vladlen Volynin">
     <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/index.css">
     <title>Отзывы</title>
 </head>
 <body>
-    <header>
-    <nav>
-        <a href="index.html">Главная</a>
-        <a href="shop.html">Магазин</a>
-        <a href="reviews.html">Отзывы</a>
-        <a href="contacts.html">Контакты</a>
-        <a href="authorization.html">Регистрация</a>
-    </nav>
-    <header>
-    <main>
+    <header class="bg-lb-1 text-center">
+        <nav>
+            <a class="text-grey-1" href="index.html">Главная</a>
+            <a class="text-grey-1" href="shop.html">Магазин</a>
+            <a class="text-grey-1" href="reviews.html">Отзывы</a>
+            <a class="text-grey-1" href="contacts.html">Контакты</a>
+            <a class="text-grey-1" href="authorization.html">Регистрация</a>
+        </nav>
+    </header>
+    <main class="container">
         <section>
             <article>
                 <h3>Первый покупатель</h3>
@@ -54,7 +55,7 @@
                 </p>
             </article>
         </section>
-        <form action="#" method="POST" autocomplete="on">
+        <form action="#" method="POST" autocomplete="on" enctype="text/plain">
             <h3>Оставить отзыв</h3>
             <div>
                 <label for="name">Имя:</label>
@@ -67,15 +68,15 @@
                 <input name="images[]" type="file" id="images" multiple accept="image/*"> 
             </div>
             <div>
-                <input type="submit" value="Отправить" name="reviews[]">
+                <input type="submit" value="Отправить" name="reviews">
             </div>
             
         </form>
     </main>
-    <footer>
+    <footer class="bg-lb-1 text-grey-1">
         <address>
-            Author <a href="mailto:vladvladx25@gmail.com">Vladlen Volynin</a><br>
-            <a href="https://github.com/vladvln">GitHub</a>   
+            Author <a class="text-grey-1" href="mailto:vladvladx25@gmail.com">Vladlen Volynin</a><br>
+            <a class="text-grey-1" href="https://github.com/vladvln">GitHub</a>  
         </address>
     </footer>
 </body>
