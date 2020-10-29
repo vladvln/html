@@ -1,1 +1,13 @@
 @import "style.css";
+
+.products{
+    position: relative;
+    margin-bottom: 15px;
+}
+
+
+.products a {
+    position: absolute;
+    bottom: 0;
+    z-index: 3;
+}

@@ -2,6 +2,7 @@ body {
     background: url(../img/bg.jpg);
     background-attachment:fixed;    
     margin: 0;    
+    font-size: 24px;
 }
 
 a {
@@ -17,6 +18,8 @@ ul {
 .btn {
     padding: 10px;
     display: inline-block;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
 }
 
 table {
@@ -25,7 +28,7 @@ table {
 }
 
 table, th, td {
-    border: 1px solid black; /* рамка: ширина - 1px, тип - сплошная, цвет - черный*/
+    border: 1px solid black;
 }
 
 .text-center {
@@ -37,9 +40,36 @@ table, th, td {
     margin: 0 auto;
 }
 
+.main-margin {
+    margin-top: 50px;
+}
+
+.main-padding {
+    padding: 20px;
+}
+
+
 header, footer {
     height: 50px;
     font-size: 18px;
+}
+
+header {
+    border-bottom: 1px solid#B0BEC5;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+
+footer {
+    z-index: 10;
+    border-top: 1px solid#B0BEC5;
+}
+
+.box-shadow {
+    box-shadow: 5px 10px 10px 0 rgba(0, 0, 0, 0.3);
 }
 
 .bg-lb-1 {
@@ -50,8 +80,12 @@ header, footer {
     background:#BDBDBD;
 }
 
+.bg-grey-2 {
+    background: #F5F5F5;
+}
+
 .bg-green-2 {
-    background: #C5E1A5;
+    background: #66BB6A;
 }
 
 .text-grey-1 {
@@ -63,7 +97,7 @@ header, footer {
 }
 
 .text-green-1 {
-    color: #2E7D32;
+    color: #C8E6C9;
 }
 
 
@@ -73,4 +107,8 @@ p, h3, h2 {
 
 img {
      display: block; 
+     border-radius: 15px;
+     width: 30%;
+     height: auto;
 }
+
