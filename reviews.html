@@ -16,9 +16,32 @@
             <a class="text-grey-1" href="shop.html">Магазин</a>
             <a class="text-grey-1" href="reviews.html">Отзывы</a>
             <a class="text-grey-1" href="contacts.html">Контакты</a>
-            <a class="text-grey-1" href="authorization.html">Регистрация</a>
+            <a class="text-grey-1" href="#mod">Войти</a>
         </nav>
     </header>
+    <div id="mod">
+        <div class="modal">
+            <a href="#" class="close"></a>
+            <form action="#" method="POST" autocomplete="on" enctype="text/plain">
+                <div>
+                    <label for="login">Логин: </label>
+                    <input type="email" id="login" name="login" placeholder="Введите e-mail">
+                </div>
+                <div>
+                    <label for="pass">Пароль: </label>
+                    <input type="password" id="pass" name="pass" placeholder="Введите пароль" minlength="6">
+                </div>
+                <div>
+                    <label>Запомнить меня:
+                        <input type="checkbox" name="checkbox">
+                    </label>
+                </div>
+                <div>
+                    <input type="submit" value="Войти" name="log-in">
+                </div>
+            </form>
+        </div>
+    </div>
     <main class="container bg-grey-2 main-margin main-padding">
         <section>
             <article>

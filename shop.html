@@ -16,22 +16,45 @@
             <a class="text-grey-1" href="shop.html">Магазин</a>
             <a class="text-grey-1" href="reviews.html">Отзывы</a>
             <a class="text-grey-1" href="contacts.html">Контакты</a>
-            <a class="text-grey-1" href="authorization.html">Регистрация</a>
+            <a class="text-grey-1" href="#mod">Войти</a>
         </nav>
     </header>
+    <div id="mod">
+        <div class="modal">
+            <a href="#" class="close"></a>
+            <form action="#" method="POST" autocomplete="on" enctype="text/plain">
+                <div>
+                    <label for="login">Логин: </label>
+                    <input type="email" id="login" name="login" placeholder="Введите e-mail">
+                </div>
+                <div>
+                    <label for="pass">Пароль: </label>
+                    <input type="password" id="pass" name="pass" placeholder="Введите пароль" minlength="6">
+                </div>
+                <div>
+                    <label>Запомнить меня:
+                        <input type="checkbox" name="checkbox">
+                    </label>
+                </div>
+                <div>
+                    <input type="submit" value="Войти" name="log-in">
+                </div>
+            </form>
+        </div>
+    </div>
     <main class="container bg-grey-2 main-margin main-padding">
         <section>
             <h2>Скульптуры для дома</h2>
             <div class="products">
-                <img class="image-plus" src="img/skulpforhome.jpg" alt="Продукст 1">
+                <img src="img/skulpforhome.jpg" alt="Продукст 1">
                 <div>
-                    <a class="text-green-1 btn bg-green-2" href="#"><b>Купить</b></a>
+                    <a class="text-green-1 btn bg-green-2 btn-hover" href="#"><b>Купить</b></a>
                 </div>
             </div>
             <div class="products">
                 <img src="img/product2.png" alt="Продукт 2">
                 <div>
-                    <a class="text-green-1 btn bg-green-2" href="#"><b>Купить</b></a>
+                    <a class="text-green-1 btn bg-green-2 btn-hover" href="#"><b>Купить</b></a>
                 </div>
             </div>
         </section>
@@ -40,13 +63,13 @@
             <div class="products">
                 <img src="img/skulpforgarden.png" alt="Продукт 3">
                 <div>
-                    <a class="text-green-1 btn bg-green-2" href="#"><b>Купить</b></a>
+                    <a class="text-green-1 btn bg-green-2 btn-hover" href="#"><b>Купить</b></a>
                 </div>
             </div>
             <div class="products">
                 <img src="img/product4.png" alt="Продукт 4" height="300" width="300">
                 <div>
-                    <a class="text-green-1 btn bg-green-2" href="#"><b>Купить</b></a>
+                    <a class="text-green-1 btn bg-green-2 btn-hover" href="#"><b>Купить</b></a>
                 </div>
             </div>
         </section>
@@ -55,13 +78,13 @@
             <div class="products">
                 <img src="img/skulpforfountain.jpg" alt="Продукт 5">
                 <div>
-                    <a class="text-green-1 btn bg-green-2" href="#"><b>Купить</b></a>
+                    <a class="text-green-1 btn bg-green-2 btn-hover" href="#"><b>Купить</b></a>
                 </div>
             </div>
             <div class="products">
                 <img src="img/product6.png" alt="Продукт 6">
                 <div>
-                    <a class="text-green-1 btn bg-green-2" href="#"><b>Купить</b></a>
+                    <a class="text-green-1 btn bg-green-2 btn-hover" href="#"><b>Купить</b></a>
                 </div>
             </div>
         </section>

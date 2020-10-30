@@ -18,8 +18,11 @@ ul {
 .btn {
     padding: 10px;
     display: inline-block;
-    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.2);
     border-radius: 15px;
+}
+
+.btn-hover:hover {
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.2);
 }
 
 table {
@@ -60,11 +63,11 @@ header {
     right: 0;
     left: 0;
     top: 0;
-    z-index: 10;
+    z-index: 5;
 }
 
 footer {
-    z-index: 10;
+    z-index: 5;
     border-top: 1px solid#B0BEC5;
 }
 
@@ -106,6 +109,7 @@ p, h3, h2 {
 }
 
 img {
+    position: relative;
      display: block; 
      border-radius: 15px;
      width: 30%;
