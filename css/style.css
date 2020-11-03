@@ -15,14 +15,26 @@ ul {
     padding: 0;
 }
 
-.btn {
-    padding: 10px;
-    display: inline-block;
+.btn-more {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    border-radius: 15px;
+    padding: 7px;
+}
+
+.btn-more:hover {
+    background: #9E9E9E;
+}
+
+.btn-buy {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
     border-radius: 15px;
 }
 
-.btn-hover:hover {
-    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.2);
+.btn-buy:hover {
+    background: #449d44;
 }
 
 table {
@@ -34,6 +46,32 @@ table, th, td {
     border: 1px solid black;
 }
 
+table {
+    border-collapse: collapse; 
+    width: 100%; 
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+
+th {
+    background: #9E9E9E;
+}
+
+tr:nth-child(odd) {
+    background: #e0e0e0;
+}
+
+tr:nth-child(even) {
+    background: #fff;
+}
+
+tr:hover {
+    background: #9E9E9E;
+}    
+
 .text-center {
     text-align: center;
 }
@@ -44,17 +82,15 @@ table, th, td {
 }
 
 .main-margin {
-    margin-top: 50px;
+    margin-top: 80px;
+}
+
+.content {
+    min-height:100%;
 }
 
 .main-padding {
     padding: 20px;
-}
-
-
-header, footer {
-    height: 50px;
-    font-size: 18px;
 }
 
 header {
@@ -67,7 +103,6 @@ header {
 }
 
 footer {
-    z-index: 5;
     border-top: 1px solid#B0BEC5;
 }
 
@@ -110,9 +145,9 @@ p, h3, h2 {
 
 img {
     position: relative;
-     display: block; 
-     border-radius: 15px;
-     width: 30%;
-     height: auto;
+    display: block; 
+    border-radius: 15px;
+    width: 300px;
+    height: auto;
 }
 
